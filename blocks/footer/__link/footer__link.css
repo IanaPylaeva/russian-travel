@@ -26,6 +26,6 @@
     margin-bottom: 48px;
   }
   .footer__link:focus {
-  color: #ffffff;
+    opacity: 1;
   }
 }
