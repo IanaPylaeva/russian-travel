@@ -21,6 +21,10 @@
     opacity: 1;
     color: #ffffff;
   }
+  .footer__link:active {
+    opacity: 1;
+    color: #ffffff;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -33,6 +37,10 @@
     margin-bottom: 48px;
   }
   .footer__link:visited {
+    opacity: 1;
+    color: #ffffff;
+  }
+  .footer__link:active {
     opacity: 1;
     color: #ffffff;
   }
