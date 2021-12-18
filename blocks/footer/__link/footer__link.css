@@ -39,6 +39,7 @@
   .footer__link:visited {
     opacity: 1;
     color: #ffffff;
+    -webkit-tap-highlight-color: transparent;
   }
   .footer__link:active {
     opacity: 1;
