@@ -17,13 +17,8 @@
 
 
 @media screen and (max-width: 768px) {
-  .footer__link:visited {
-    opacity: 1;
-    color: #ffffff;
-  }
-  .footer__link:active {
-    opacity: 1;
-    color: #ffffff;
+  .footer__link {
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
   }
 }
 
@@ -36,13 +31,7 @@
   .footer__link:last-of-type {
     margin-bottom: 48px;
   }
-  .footer__link:visited {
-    opacity: 1;
-    color: #ffffff;
-    -webkit-tap-highlight-color: transparent;
-  }
-  .footer__link:active {
-    opacity: 1;
-    color: #ffffff;
+  .footer__link {
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
   }
 }
