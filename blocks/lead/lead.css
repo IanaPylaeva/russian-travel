@@ -5,30 +5,26 @@
   align-items: center;
   margin: 56px 148px 0;
   padding: 0;
-  max-width: 984px;
-  max-height: 1005px;
+  width: 76.9%;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
-    max-width: 928px;
-    max-height: 962px;
+    width: 90.6%;
     margin: 48px 48px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    max-width: 768px;
-    max-height: 862px;
+    width: 100%;
     margin: 48px 0 0;
   }
 }
 
 @media screen and (max-width: 550px) {
   .lead {
-    max-width: 550px;
-    max-height: 406px;
+    width: 100%;
     margin: 48px 0 0;
   }
 }
