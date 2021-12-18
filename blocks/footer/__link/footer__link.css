@@ -16,6 +16,13 @@
 }
 
 
+@media screen and (max-width: 768px) {
+  .footer__link:visited {
+    opacity: 1;
+    color: #ffffff;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .footer__link {
     margin: 0 auto 32px 0;
