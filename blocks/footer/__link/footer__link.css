@@ -25,10 +25,7 @@
   .footer__link:last-of-type {
     margin-bottom: 48px;
   }
-  .footer__link:hover:before {
-    opacity: 0.3;
-  }
-  .footer__link:hover:after {
+  .footer__link:visited {
     opacity: 1;
   }
 }
