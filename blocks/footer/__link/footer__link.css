@@ -27,5 +27,6 @@
   }
   .footer__link:visited {
     opacity: 1;
+    color: #ffffff;
   }
 }
