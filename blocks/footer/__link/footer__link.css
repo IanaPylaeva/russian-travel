@@ -28,7 +28,7 @@
   .footer__link:hover:before {
     opacity: 0.3;
   }
-  .footer__link:hover:before {
+  .footer__link:hover:after {
     opacity: 1;
   }
 }
