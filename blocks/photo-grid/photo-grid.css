@@ -31,6 +31,6 @@
     margin: 0 16px 64px;
     row-gap: 12px;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, min-content);
+    grid-template-rows: repeat(12, 1fr);
   }
 }
