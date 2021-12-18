@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 768px) {
   .place__website {
-    width: 352px;
+    width: calc(100% - 28px/2);
   }
 }
 
