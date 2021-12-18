@@ -1,7 +1,6 @@
 .place__website {
   list-style: none;
-  max-width: 456px;
-  max-height: 46px;
+  width: calc(100% - 40px/2);
   margin-bottom: 0;
   align-self: end;
   padding: 0;
@@ -10,12 +9,12 @@
 
 @media screen and (max-width: 768px) {
   .place__website {
-    max-width: 352px;
+    width: 352px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .place__website {
-    max-width: 288px;
+    width: calc(100% - 32px);
   }
 }
