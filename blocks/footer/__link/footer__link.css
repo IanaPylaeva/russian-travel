@@ -25,8 +25,4 @@
   .footer__link:last-of-type {
     margin-bottom: 48px;
   }
-  .footer__link:visited {
-    color: transparent;
-    text-shadow: 0 0 0 green;
-  }
 }
