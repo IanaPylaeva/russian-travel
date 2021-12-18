@@ -6,6 +6,7 @@
   margin: 0 auto 245px;
   padding: 0;
   z-index: 2;
+  text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,7 +23,7 @@
 
 @media screen and (max-width: 550px) {
   .cover__subtitle {
-    width: 90%;
+    max-width: 90%;
     font-size: 14px;
     margin: 0 auto 33px;
   }
