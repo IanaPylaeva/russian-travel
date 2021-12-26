@@ -5,8 +5,9 @@
   font-weight: normal;
   margin: 0 auto 245px;
   padding: 0;
+  color: #ffffff;
+  position: relative;
   z-index: 2;
-  text-align: center;
 }
 
 @media screen and (max-width: 1024px) {

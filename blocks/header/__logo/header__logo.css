@@ -3,12 +3,10 @@
   max-height: 52px;
   padding: 0;
   margin: 0 auto 0 0;
-  display: flex;
-  align-self: flex-start;
-  transition: opacity 0.3s ease;
+  transition: opacity .3s ease;
 }
 .header__logo:hover {
-  opacity: 0.3;
+  opacity: .3;
 }
 
 @media screen and (max-width: 550px) {
