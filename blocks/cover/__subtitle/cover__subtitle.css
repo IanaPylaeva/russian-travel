@@ -3,29 +3,19 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0 auto 245px;
+  margin-top: 0;
   padding: 0;
   color: #ffffff;
   position: relative;
+
   z-index: 2;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__subtitle {
-    margin: 0 auto 195px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    margin: 0 auto 115px;
-  }
-}
 
 @media screen and (max-width: 550px) {
   .cover__subtitle {
-    max-width: 90%;
+    max-width: 495px;
     font-size: 14px;
-    margin: 0 auto 33px;
+
   }
 }
