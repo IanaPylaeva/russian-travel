@@ -14,9 +14,3 @@
     line-height: 1;
   }
 }
-
-@media screen and (max-width: 550px) {
-  .place__url-heading {
-    line-height: 1;
-  }
-}
