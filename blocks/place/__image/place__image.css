@@ -3,6 +3,7 @@
   margin-top: 0;
   grid-column: 1;
   grid-row: 2;
+  display: flex;
 }
 
 @media screen and (max-width: 550px) {
