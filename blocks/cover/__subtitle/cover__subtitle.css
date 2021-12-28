@@ -7,14 +7,12 @@
   padding: 0;
   color: #ffffff;
   position: relative;
-
   z-index: 2;
 }
 
-
 @media screen and (max-width: 550px) {
   .cover__subtitle {
-    max-width: 495px;
+    width: 90%;
     font-size: 14px;
     line-height: 1.14;
   }

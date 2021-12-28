@@ -19,11 +19,23 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .place {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 340px 352px;
     gap: 48px 28px;
     margin: 0 0 73px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .place {  
+    grid-template-columns: 1fr 1fr;
   }
 }
 
