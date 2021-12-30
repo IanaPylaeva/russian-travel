@@ -6,23 +6,29 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1250px) {
+  .footer {
+    width: 92.5%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .footer {
-    max-width: 928px;
+    width: 90.625%;
     margin: 0 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    max-width: 720px;
+    width: 93.75%;
     margin: 0 24px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .footer {
-    max-width: 320px;
+    width: 58.18%;
     margin: 0 auto 0 16px;
     flex-direction: column;
   }

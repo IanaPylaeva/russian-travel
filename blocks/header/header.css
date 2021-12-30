@@ -6,23 +6,29 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1250px) {
+  .header {
+    width: 92.5%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .header {
-    max-width: 928px;
+    width: 90.625%;
     margin: 0 48px 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    max-width: 720px;
+    width: 93.75%;
     margin: 0 24px 48px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .header {
-    max-width: 495px;
+    width: 90%;
     margin: 0 16px 48px;
   }
 }

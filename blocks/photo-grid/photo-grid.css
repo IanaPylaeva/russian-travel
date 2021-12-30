@@ -8,6 +8,11 @@
   padding: 0;
 }
 
+@media screen and (max-width: 1250px) {
+  .photo-grid {
+    width: 92.5%;
+  }
+} 
 @media screen and (max-width: 1024px) {
   .photo-grid {
     width: 90.6%;
